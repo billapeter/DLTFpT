@@ -4,8 +4,6 @@
 
 FROM jupyter/scipy-notebook:2ce7c06a61a1 
 
-MAINTAINER Jon Krohn <jon@untapt.com>
-
 USER $NB_USER
 
 # Install TensorFlow: 
